@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  padding: 20px;
+  height: 8%;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.avatar {
+  height: 50px;
+  width: 50px;
+}
+
+.table td, .table th {
+  vertical-align: middle;
+}
+
+.table {
+  width: 80%;
+  margin: auto;
+  vertical-align: middle;
+}
+
+th {
+  text-align: center;
+}
+
+.user {
+  line-height: 50px;
+}
+
+@media (max-width: 768px) {
+  .table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  td {
+    white-space: nowrap;
+  }
+
+  .user {
+    min-width: 200px;
+  }
+
+  .App-header {
+    display: block;
+    overflow-x: hidden;
+  }
+}
